@@ -5,7 +5,7 @@
   "compilerOptions": {
     "deleteOutDir": true,
     "webpack": true,
-    "tsConfigPath": "apps/bookstore/tsconfig.app.json"
+    "tsConfigPath": "apps/bookstore-api-gateway/tsconfig.app.json"
   },
   "monorepo": true,
   "root": "apps/bookstore-api-gateway",
