@@ -8,6 +8,7 @@ export class UsersService {
   ];
 
   findAll() {
+    console.log('Test');
     return this.users;
   }
 }
