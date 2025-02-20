@@ -1,5 +1,5 @@
 {
-  "name": "bookstore",
+  "name": "bookstore-api",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -11,14 +11,15 @@
     "start": "nest start",
     "dev": "nest start --watch",
     "dev:user": "nest start users --watch",
+    "dev:book": "nest start books --watch",
     "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/apps/bookstore/main",
+    "start:prod": "node dist/apps/bookstore-api-gateway/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./apps/bookstore/test/jest-e2e.json"
+    "test:e2e": "jest --config ./apps/bookstore-api-gateway/test/jest-e2e.json"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
